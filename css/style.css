@@ -1,0 +1,338 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/***********************************************************
+       **********header section start***********
+***********************************************************/
+
+
+.header-section{
+	width: 100%;
+	background: url(../images/banner.png)center top no-repeat;
+	background-size: cover;
+
+}
+.header-section .bg-light {
+    background-color: transparent!important;
+    padding: 20px 0px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	font-size: 16px;
+	font-weight: 600;
+    color: #df02b3;
+    
+
+}
+.navbar-light .navbar-nav .nav-link {
+	font-size: 16px;
+	font-weight: 600;
+    color: #fff;
+    margin-right:24px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	font-size: 16px;
+	font-weight: 600;
+    color: #df02b3;
+    margin-right:24px;
+}
+/***********************************************************
+       **********header section end***********
+***********************************************************/
+/***********************************************************
+       **********banner section start***********
+***********************************************************/
+.banner {
+    width: 100%;
+    padding: 50px 0px;
+}
+.banner-inner {
+    width: 100%;
+    padding: 40px 0px;
+}
+.banner-inner h3 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.banner-inner h1 {
+    font-size: 51px;
+    line-height: 42px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.div-btn {
+    width: 100%;
+    margin-top:70px;
+    
+}
+.div-btn .btn-info{
+    padding: 10px 35px;
+    background: #fff;
+    color: #8557ea;
+    border: 1px solid #fff;
+    border-radius:10px;
+    font-size: 14px;
+    font-weight: 700;
+
+    
+   
+}
+.div-btn .btn-info:hover {
+    background:  #df02b3;
+    color: #fff;
+    border: 1px solid #df02b3;
+    transition: 1s ease-in;
+}
+/***********************************************************
+       **********banner section end***********
+***********************************************************/ 
+
+/***********************************************************
+       **********work section start***********
+***********************************************************/ 
+.work-section {
+    width: 100%;
+    padding: 80px 0px;
+}
+.work-inner {
+    margin: 66px 0px;
+}
+.work-inner h1 {
+    font-size: 44px;
+    font-weight: 600;
+}
+.work-inner p {
+    color: #949494;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.work-inner h4 {
+
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.work-inner img{
+
+    margin: 13px 0px;
+}
+/***********************************************************
+       **********work section end***********
+***********************************************************/ 
+/***********************************************************
+       **********content section start***********
+***********************************************************/ 
+.content-section{
+	width: 100%;
+	padding: 80px 0px;
+	background-color:#df02b3;
+}
+.carousel-inner{
+    width:100%
+    padding:80px 0px;
+   
+}
+.content-inner{
+
+}
+.content-inner h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.content-inner p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 40px 0px;
+}
+.content-inner ul{
+	
+}
+.content-inner ul li {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #111;
+}
+
+/***********************************************************
+       **********content section end***********
+***********************************************************/ 
+/***********************************************************
+       **********subscribe section start***********
+***********************************************************/ 
+.subscribe{
+	width: 100%
+	padding:250px 0px;
+	background: url(../images/bg.png)center top no-repeat;
+	background-size: cover;
+}
+.subscribe h1 {
+    font-size: 55px;
+    font-weight: 700;
+    background: linear-gradient(to left, #fff 33%, #111);
+   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 48px;
+}
+.subscribe .form-group{
+	width:100%;
+	text-align:;
+	position: relative;
+
+}
+.subscribe .form-control{
+	width: 100%;
+	text-align:;
+	height: auto!important;
+	padding:12px 10px;
+	background:transparent;
+	border: 1px solid #797979;
+	border-radius: 30px;
+	margin-bottom:48px;
+}
+.subscribe .btn-primary{
+	position: absolute;
+	top: 5px;
+	right: 1%;
+	padding: 7px 50px;
+	font-weight: 700;
+	background: linear-gradient(to left, #fff 33%, #111);
+	color: #df02b3;
+	border: 1px solid #797979;
+	border-radius: 30px;
+	text-transform: uppercase;
+}
+.subscribe .btn-primary:hover,.subscribe .btn-primary:focus{
+	 background: linear-gradient(to left, #fff 33%, #111);
+   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #df02b3;
+}
+
+/***********************************************************
+       **********subscribe section end***********
+***********************************************************/ 
+
+/***********************************************************
+       **********showcase section start***********
+***********************************************************/ 
+.showcase{
+    width: 100%;
+    padding: 80px 0px;
+}
+.showcase-inner h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #949494;
+}
+.showcase-inner p {
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+    margin: 31px 0px;
+    color: #949494;
+}
+
+/***********************************************************
+       **********showcase section end***********
+***********************************************************/ 
+/***********************************************************
+       **********download section start***********
+***********************************************************/
+.download{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/bgg.png)center top no-repeat;
+    background-size: cover;
+}
+.download-inner{
+
+}
+.download-inner h2{
+     font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.download-inner p{
+      font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+    margin: 31px 0px;
+    color: #fff;
+}
+.brand-inner {
+
+    text-align: center;
+    padding: 0px;
+    margin: 47px 0px;
+
+}
+.brand-inner img {
+
+    width: 50px;
+    margin-bottom: 30px;
+
+}
+.bttn{
+
+}
+.bttn .btn-primary {
+
+    padding: 3px 25px;
+    background: #8557ea;
+    color: #fff;
+    border: 1px solid #8557ea;
+    border-radius: 26px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.bttn .btn-primary:hover{
+    background: #df02b3;
+    color: #ffff;
+    border: 1px solid #8557ea;
+}
+
+/***********************************************************
+       **********download section end***********
+***********************************************************/ 
+/***********************************************************
+       **********footer section start***********
+***********************************************************/  
+.footer {
+    width: 100%;
+    padding: 25px 0px;
+    background: #0f0f14;
+}
+.footer p{
+    color:#fff;
+}
+.footer  strong{
+    color: #8557ea;
+}
+
+/***********************************************************
+       **********footer section end***********
+***********************************************************/  
