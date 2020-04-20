@@ -336,3 +336,172 @@ a,a:hover{
 /***********************************************************
        **********footer section end***********
 ***********************************************************/  
+/***********************************************************
+       **********css media query start***********
+***********************************************************/  
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .banner {
+    width: 100%;
+    
+}
+.banner-inner h1 {
+    font-size: 48px;
+    line-height: 49px;
+    color: violet;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.banner-inner h3 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: #df02b3;
+    background: black;
+}
+.work-inner {
+    margin: 27px 0px;
+}
+.work-inner p {
+    color: #949494;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.subscribe h1 {
+    font-size: 22px;
+    font-weight: 700;
+    background: linear-gradient(to left, #fff 33%, #111);
+        background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 48px;
+}
+.subscribe .form-control {
+    width: 100%;
+    text-align: ;
+    height: auto !important;
+    padding: 6px 10px;
+    background: transparent;
+    border: 1px solid #797979;
+    border-radius: 30px;
+    margin-bottom: 48px;
+}
+.subscribe .btn-primary {
+    position: absolute;
+    top: 4px;
+    right: 3%;
+    padding: 2px 25px;
+    font-weight: 700;
+    background: linear-gradient(to left, #fff 33%, #111);
+    color: #df02b3;
+    border: 1px solid #797979;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.showcase-inner p {
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 400;
+    margin: 31px 0px;
+    color: #949494;
+}
+.download-inner p {
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 400;
+    margin: 31px 0px;
+    color: #fff;
+}
+  
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 24px;
+    background: black;
+}
+.banner-inner h1 {
+    font-size: 60px;
+    line-height: 49px;
+    color: violet;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.work-inner p {
+    color: #949494;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+  
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+  
+.work-inner p {
+    color: #949494;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.banner-inner h1 {
+    font-size: 44px;
+    line-height: 49px;
+    color: violet;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    font-size: 16px;
+    font-weight: 600;
+    color: #df02b3;
+    margin-right: 48px;
+    background: black;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: #df02b3;
+    
+}
+  
+}
+/***********stickuo css code*************/
+.isStuck{
+    left:0px;
+    width:100%;
+    background: yellow;
+}
+
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+  width:100%;
+
+}
+
+

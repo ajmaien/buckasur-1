@@ -14,7 +14,8 @@
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <!-- google fonts CSS -->
       <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-      
+      <!-- aos CSS animate-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
     <title>Hello/Buckasur</title>
@@ -22,16 +23,17 @@
   <body>
     <!-------------------header section code start------------------>
       <header class="header-section">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="main-nav navbar-wrapper">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light ">
            <div class="container">
-              <a class="navbar-brand" href="index.html">
+              <a class="navbar-brand" data-aos="fade-up" href="index.html">
                <img src="images/logo.html.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
+              <ul class="navbar-nav ml-auto" data-aos="fade-down">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">About Buckasur
                     <span class="sr-only">(current)</span></a>
@@ -48,16 +50,17 @@
             </div>
            </div>
           </nav>
+        </div>
     <!-------------------banner section code start------------------>
         <div class="banner">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <div class="banner-inner">
+                <div class="banner-inner"data-aos="fade-right">
                   
                   <h1>Get Best Offer On</h1>
                   <h3>Online Shopping When <br>Buckasur is with You!</h3>
-                  <div class="div-btn">
+                  <div class="div-btn" data-aos="fade-left">
                   <a href="#" class="btn btn-info"><i class="fa fa-download"></i>
                    &nbsp;Free Download </a>
                    
@@ -74,14 +77,14 @@
       <section class="work-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12"data-aos="fade-down-left">
                   <div class="work-inner text-center">
                     <h1>How It Work</h1>
                     <p>Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vesti <br>bulum ante ipsum primis in faucibus orci luctus et ultrices</p>
                   </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4"data-aos="fade-up-right">
                   <div class="work-inner text-center">
                     <img src="images/1.png" alt="">
                     <h4>Search Your Product</h4>
@@ -89,7 +92,7 @@
                     <p>Lorem Cras ultricies ligula sed <br>magna dictum porta</p>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4"data-aos="fade-down-left">
                   <div class="work-inner text-center">
                     <img src="images/2.png" alt="">
                     <h4>Track Price</h4>
@@ -97,7 +100,7 @@
                     <p>Lorem Cras ultricies ligula sed <br>magna dictum porta</p>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4"data-aos="fade-up-left">
                   <div class="work-inner text-center">
                     <img src="images/3.png" alt="">
                     <h4>Get Notifications</h4>
@@ -114,7 +117,7 @@
       </section>
 <!-------------------work section code end------------------>
 <!-------------------content section code start------------------>
-     <section class="content-section">
+     <section class="content-section"data-aos="flip-left">
        
          <div class="container">
            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -208,7 +211,7 @@
 <!-------------------content section code end------------------>
 
 <!-------------------subscribe section code start------------------>
-     <section class="subscribe">
+     <section class="subscribe"data-aos="zoom-in">
        <div class="container">
          <div class="row">
            <div class="col-md-12 text-center">
@@ -233,7 +236,9 @@
 <!-------------------subscribe section code end------------------>
 
 <!-------------------showcase section code start------------------>
-    <section class="showcase">
+    <section class="showcase" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
       <div class="container">
               <div class="row">
                 <div class="col-md-12">
@@ -246,18 +251,19 @@
               <div class="row">
                      <div class="col-md-12">
                          <div class="owl-carousel owl-theme">
-                            <div class="item"><img src="images/a.png" alt=""></div>
-                            <div class="item"><img src="images/b.png" alt=""></div>
-                            <div class="item"><img src="images/c.png" alt=""></div>
-                            <div class="item"><img src="images/d.png" alt=""></div>
-                            <div class="item"><img src="images/e.png" alt=""></div>
-                            <div class="item"><img src="images/a.png" alt=""></div>
-                            <div class="item"><img src="images/b.png" alt=""></div>
-                            <div class="item"><img src="images/c.png" alt=""></div>
-                            <div class="item"><img src="images/d.png" alt=""></div>
-                            <div class="item"><img src="images/e.png" alt=""></div>
-                            <div class="item"><img src="images/a.png" alt=""></div>
-                            <div class="item"><img src="images/b.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/a.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/b.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/c.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/d.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/e.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/e.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/a.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/b.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/c.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/d.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/e.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/a.png" alt=""></div>
+                            <div class="item"data-aos="flip-right"><img src="images/b.png" alt=""></div>
                         </div>
    
                      </div>
@@ -273,7 +279,9 @@
      <section class="download">
        <div class="container">
              <div class="row">
-               <div class="col-md-12">
+               <div class="col-md-12"data-aos="flip-left"
+                                    data-aos-easing="ease-out-cubic"
+                                    data-aos-duration="2000">
                  <div class="download-inner text-center">
                    <h2>Ready To Give It a Try?</h2>
                    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit <br>amet dui. Vivamus magna justo, lacinia eget tellus.</p>
@@ -281,7 +289,9 @@
                </div>
              </div>
              <div class="row">
-               <div class="col-md-4">
+               <div class="col-md-4"data-aos="flip-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                   <div class="brand-inner">
                       <img src="images/x.png" alt="">
                        <div class="bttn">
@@ -289,7 +299,9 @@
                        </div>
                      </div>
                    </div>
-                     <div class="col-md-4">
+                     <div class="col-md-4"data-aos="flip-left"
+                       data-aos-easing="ease-out-cubic"
+                       data-aos-duration="2000">
                        <div class="brand-inner">
                          <img src="images/y.png" alt="">
                          <div class="bttn">
@@ -299,7 +311,9 @@
                        </div>
 
                
-                   <div class="col-md-4">
+                   <div class="col-md-4"data-aos="flip-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                      <div class="brand-inner">
                        <img src="images/z.png" alt="">
                        <div class="bttn">
@@ -330,6 +344,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/stickUp.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+       AOS.init();
+    </script>
     <script>
      $('.owl-carousel').owlCarousel({
     loop:true,
@@ -350,11 +370,17 @@
         }
     }
 })
+</script>
+ <script type="text/javascript">
+              //initiating jQuery
+              jQuery(function($) {
+                $(document).ready( function() {
+                  //enabling stickUp on the '.navbar-wrapper' class
+                  $('.navbar-wrapper').stickUp();
+                });
+              });
 
-
-
-
-    </script>
+            </script>
 
   </body>
 </html>
