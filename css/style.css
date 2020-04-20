@@ -503,5 +503,50 @@ a,a:hover{
   width:100%;
 
 }
+/*****searchbar*****/
 
 
+.searchbar {
+    margin-bottom: auto;
+    margin-top: -19px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+    
+ .search_input {
+    color: black;
+    border: 0;
+    outline: 0px;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    line-height: 29px;
+    transition: width 0.4s linear;
+}
+.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 100px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    top: -67px;
+    background: #fff;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: transparent;
+    color: red;
+    
+    
+    }
+    .search_icon{
+    font-size: 30px
+    height: 31px;
+    width: 24px;
+    float: right;
+    border-radius: 50%;
+    padding: 10px;
+    
+    
+    }
