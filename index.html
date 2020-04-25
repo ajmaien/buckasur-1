@@ -21,10 +21,11 @@
     <title>Hello/Buckasur</title>
   </head>
   <body>
+
     <!-------------------header section code start------------------>
       <header class="header-section">
-        <div class="main-nav navbar-wrapper">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        
+          <nav class="navbar navbar-expand-lg navbar-light bg-light header-menu">
            <div class="container">
               <a class="navbar-brand" data-aos="fade-up" href="index.html">
                <img src="images/logo.html.png" alt=""></a>
@@ -44,22 +45,23 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Download</a>
                 </li>
+
                 
               </ul>
               
             </div>
            </div>
+           <div class="form text-right">
+                 <div class="container ">
+                      <div class="searchbar">
+                        <input class="search_input" type="text" name="" placeholder="Search...">
+                        <a href="#" class="search_icon"><i class="fa fa-search"></i></a>
+                      </div>
+                  </div>
+                </div>
           </nav>
-          <div class="form text-right">
-         <div class="container ">
+                  
       
-        <div class="searchbar">
-          <input class="search_input" type="text" name="" placeholder="Search...">
-          <a href="#" class="search_icon"><i class="fa fa-search"></i></a>
-        </div>
-      </div>
-    </div>
-      </div>
         </div>
     <!-------------------banner section code start------------------>
         <div class="banner">
@@ -67,6 +69,8 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="banner-inner"data-aos="fade-right">
+
+
                   
                   <h1>Get Best Offer On</h1>
                   <h3>Online Shopping When <br>Buckasur is with You!</h3>
@@ -90,7 +94,8 @@
                 <div class="col-md-12"data-aos="fade-down-left">
                   <div class="work-inner text-center">
                     <h1>How It Work</h1>
-                    <p>Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vesti <br>bulum ante ipsum primis in faucibus orci luctus et ultrices</p>
+                    <p class="web">Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vesti <br>bulum ante ipsum primis in faucibus orci luctus et ultrices</p>
+                    <p class="responsive">Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vesti bulum ante ipsum primis in faucibus orci luctus et ultrices</p>
                   </div>
                 </div>
 
@@ -355,12 +360,23 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
 
-    <script src="js/stickUp.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
        AOS.init();
-    </script>
-    <script>
+  
+
+
+
+           $(document).ready(function(){
+    $(".header-menu").sticky({topSpacing:0,'zIndex' : "15",});
+  });
+
+
+
+
+
+    
      $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,

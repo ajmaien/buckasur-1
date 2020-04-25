@@ -6,12 +6,18 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
+    overflow-x: hidden;
+    
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 a,a:hover{
 	text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /***********************************************************
@@ -47,6 +53,52 @@ a,a:hover{
 	font-weight: 600;
     color: #df02b3;
     margin-right:24px;
+}
+/*****searchbar*****/
+
+
+.searchbar {
+    margin-bottom: auto;
+    margin-top: 0px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0px;
+}
+
+    
+ .search_input {
+    color: black;
+    border: 0;
+    outline: 0px;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    line-height: 29px;
+    transition: width 0.4s linear;
+}
+.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 100px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    top: -67px;
+    background: #fff;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: transparent;
+    color: red;
+    
+    
+    }
+   .search_icon {
+    font-size: 30px height: 31px;
+    width: 24px;
+    float: right;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+    margin-right: 20px;
 }
 /***********************************************************
        **********header section end***********
@@ -109,6 +161,12 @@ a,a:hover{
 .work-section {
     width: 100%;
     padding: 80px 0px;
+}
+.work-section .web{
+    display: block;
+}
+.work-section .responsive{
+    display: none;
 }
 .work-inner {
     margin: 66px 0px;
@@ -346,28 +404,49 @@ a,a:hover{
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .banner {
-    width: 100%;
+
+.bg-light .navbar-brand img{
+
+    width: 100px;
+}
+.header-section .bg-light {
+   
+    padding: 7px 4px;
+}
+.navbar-light .navbar-toggler {
     
+    font-size: 12px;
+}
+.searchbar {
+    margin-top: 4px;
+    margin-right: 94px;
+}
+.search_icon {
+    padding: 0px;
+}
+
+ .banner {
+    padding: 60px 0px;
+}
+.banner-inner {
+    
+    padding: 0px 0px;
 }
 .banner-inner h1 {
-    font-size: 48px;
-    line-height: 49px;
-    color: violet;
-    font-weight: 700;
-    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 10px;
 }
 .banner-inner h3 {
-    font-size: 14px;
+    font-size: 12px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 30px;
 }
-.navbar-light .navbar-nav .active > .nav-link {
-    font-size: 16px;
-    font-weight: 600;
-    color: #df02b3;
-    background: black;
+
+.div-btn .btn-info {
+    padding: 4px 11px;
+    
 }
 .work-inner {
     margin: 27px 0px;
@@ -423,6 +502,7 @@ a,a:hover{
     margin: 31px 0px;
     color: #fff;
 }
+
   
 }
 /* 
@@ -431,6 +511,12 @@ a,a:hover{
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+    .work-section .web{
+    display: none;
+}
+.work-section .responsive{
+    display: block;
+}
   .navbar-light .navbar-nav .nav-link {
     font-size: 16px;
     font-weight: 600;
@@ -503,50 +589,11 @@ a,a:hover{
   width:100%;
 
 }
-/*****searchbar*****/
 
-
-.searchbar {
-    margin-bottom: auto;
-    margin-top: -19px;
-    height: 35px;
-    border-radius: 50%;
-    margin-right: 20px;
+    /*****sticky css code******/
+.is-sticky .header-menu{
+    background: #52C5A4 !important;
+    padding: 10px 0px;
+    transition: 1s;
+    width: 100%;
 }
-
-    
- .search_input {
-    color: black;
-    border: 0;
-    outline: 0px;
-    background: none;
-    width: 0;
-    caret-color: transparent;
-    line-height: 29px;
-    transition: width 0.4s linear;
-}
-.searchbar:hover > .search_input{
-    padding: 0 10px;
-    width: 100px;
-    caret-color:red;
-    transition: width 0.4s linear;
-    top: -67px;
-    background: #fff;
-    }
-
-    .searchbar:hover > .search_icon{
-    background: transparent;
-    color: red;
-    
-    
-    }
-    .search_icon{
-    font-size: 30px
-    height: 31px;
-    width: 24px;
-    float: right;
-    border-radius: 50%;
-    padding: 10px;
-    
-    
-    }
